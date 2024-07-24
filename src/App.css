@@ -1,0 +1,68 @@
+/*-----new proj----*/
+.invoice-form {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.form-section {
+  margin-bottom: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Space between input fields */
+}
+
+.form-section input {
+  flex: 1 1 calc(50% - 16px); /* Adjust width and spacing */
+}
+
+.form-section input[type="text"],
+.form-section input[type="number"],
+.form-section input[type="file"] {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-section input[type="text"]::placeholder,
+.form-section input[type="number"]::placeholder {
+  color: #888;
+}
+
+.add-item-button,
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+.add-item-button:hover,
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.add-item-button {
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+}
