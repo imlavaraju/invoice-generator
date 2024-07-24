@@ -1,4 +1,4 @@
-# Getting Started with Create React App[LIVE LINK](https://invoice-generator-nu-fawn.vercel.app/)
+# INvoice Generator [LIVE LINK](https://invoice-generator-nu-fawn.vercel.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
